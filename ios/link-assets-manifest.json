@@ -1,0 +1,205 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/demo.html",
+      "sha1": "a099ab979780b8052767fa3442a085acb1834b40"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Black.eot",
+      "sha1": "98c21187c3cc2a20406aadc55c8afa94cca6c166"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Black.ttf",
+      "sha1": "f30f501fa0b54325089d9cbb1ba2db2b89c7af2b"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Black.woff",
+      "sha1": "5e01573ddc4db8115a5c0c3eb4d4f4b7575d3b0b"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-BlackItalic.eot",
+      "sha1": "ff488c22bbd820bd37c0a7ef9768b3dc76b7d42f"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-BlackItalic.ttf",
+      "sha1": "cc7ba9aac5595a38744c3529d53d37f96adc9699"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-BlackItalic.woff",
+      "sha1": "5f4316c824e876cc959fa1122c4765e22738c62b"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Bold.eot",
+      "sha1": "f663bfa990420f9da8369901acb603e4e9274977"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Bold.ttf",
+      "sha1": "bae948fbf63e37b2bbc2aa30666d057a2ef7aa42"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Bold.woff",
+      "sha1": "3fbe644ed272147e8acca0a084f3e3803044db33"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-BoldItalic.eot",
+      "sha1": "adc5f3367da625723ec3b88aaef85c020aa4f4fb"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-BoldItalic.ttf",
+      "sha1": "099c8b02cbc5dc8993fb036688dba2f39ea63575"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-BoldItalic.woff",
+      "sha1": "1bff4c7be6b5260bd46d68532e04522fda9a1c89"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Light.eot",
+      "sha1": "10c198d6d9d387ceb8fb6b07cc962ca7c0e7cc64"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Light.ttf",
+      "sha1": "426078d8c1249ba8b4a4b5d055cb43d3003d8afa"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Light.woff",
+      "sha1": "822d42676df1fdc826322735d78caa11e9461ce3"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-LightItalic.eot",
+      "sha1": "9c0ac347fa9923aa7da98e9bf32e391525c75247"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-LightItalic.ttf",
+      "sha1": "6db1e3c82f8514434d52de720c5b76f54219c69b"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-LightItalic.woff",
+      "sha1": "c212a6c1f8590c3629f9c34bcd4612471f2180d9"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Mediu.eot",
+      "sha1": "064a451a80e1367b65cd588654d589b835350ef9"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Mediu.ttf",
+      "sha1": "96b7a1d94de4bfc0bff593076afe1e486ec3c7ab"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Mediu.woff",
+      "sha1": "a3c2bb52b3e5ed6e47c0d3504077054bd3c1599e"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-MediumItalic.eot",
+      "sha1": "0e755877d7c937acd9cd2e582850a609d69c4578"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-MediumItalic.ttf",
+      "sha1": "b9c8a4b5f608ffb5142d6b0c7d465657ddf302c6"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-MediumItalic.woff",
+      "sha1": "a8db3caf535ee91b7078652cd6683e52755c0fec"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Roman.eot",
+      "sha1": "af20277c490cee6ce75a602f8f234a66bdd9e5df"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Roman.ttf",
+      "sha1": "a5b51ae0caf2edc5d42d2ab1a9d6a5b3d6c99368"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Roman.woff",
+      "sha1": "1343074430eac2ccfc58e9bf79938b13503e9cba"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-RomanItalic.eot",
+      "sha1": "c50220f64e2070a7115a91acf98dac0b673363a3"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-RomanItalic.ttf",
+      "sha1": "99ceae43f85ad9a01feae510600cc1642a82eece"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-RomanItalic.woff",
+      "sha1": "e40a13c9d88e24029f7d752c69bde26dc6fb6e22"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Thin.eot",
+      "sha1": "10e406d155e0a919ee58272d6ffe7840e6a649b3"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Thin.ttf",
+      "sha1": "8d95d3dc2263c55578cd7b711b9784c23defb8f7"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-Thin.woff",
+      "sha1": "5d922bf2b7047d26015c484ba1d2dd46c366e6a6"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-ThinItalic.eot",
+      "sha1": "d873c721898cef4369927f4eed29e82b2fecc887"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-ThinItalic.ttf",
+      "sha1": "732723ad970fdaf34e92e723a4d7daad266bf40c"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-ThinItalic.woff",
+      "sha1": "ddfb955c6ad8f05abd25f71a1e7481591ddf7729"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-XThin.eot",
+      "sha1": "5010faba7aabc3d02271128755a34604e4179658"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-XThin.ttf",
+      "sha1": "c23056d5899e7acea2e7f3cf02a8b55d263e3351"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-XThin.woff",
+      "sha1": "9a6a51707dfe2facc11fc8154fa22afb790025b7"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-XThinItalic.eot",
+      "sha1": "c30adc5baf50c2ffe052b7de07dd2cb8dbd426fd"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-XThinItalic.ttf",
+      "sha1": "55f96f351bb75ffd9b8ebcc55ea7d1d9eae46e32"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-XThinItalic.woff",
+      "sha1": "d6d11d31a4d117b820bbe72cddc8b49251ca370b"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-XXThin.eot",
+      "sha1": "9c3f3459fe5e9c14a0ea0cd4c296cf6929c52fdc"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-XXThin.ttf",
+      "sha1": "1893a4b7e2143d4c0bec2a583e503ba7e9b729a8"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-XXThin.woff",
+      "sha1": "4d8284b4ced94c6ac9e408f1ef57d263b7e51366"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-XXThinItalic.eot",
+      "sha1": "291353e24e77c19a211419e01c4bd47acebacb09"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-XXThinItalic.ttf",
+      "sha1": "e711577fc09b1ff5430041ac6bfe8f4e19d3a956"
+    },
+    {
+      "path": "assets/fonts/NeueHaasDisplay-XXThinItalic.woff",
+      "sha1": "9a2f8f4116f518b5e5cfaabbbb2ceff8d3332168"
+    },
+    {
+      "path": "assets/fonts/stylesheet.css",
+      "sha1": "f2f1ec9c7d11b7808bc714a310abfdefa07bd61d"
+    }
+  ]
+}

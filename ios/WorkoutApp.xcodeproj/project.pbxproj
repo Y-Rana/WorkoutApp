@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* WorkoutAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WorkoutAppTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-WorkoutApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-WorkoutApp.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-WorkoutApp-WorkoutAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-WorkoutApp-WorkoutAppTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		1BE37E1448A043229526852A /* NeueHaasDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9139B3C2B024D02AEDFCE54 /* NeueHaasDisplay-Black.ttf */; };
+		EA1DD41D991E40E28C2256DA /* NeueHaasDisplay-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE95622E3F674CA19694FF0C /* NeueHaasDisplay-BlackItalic.ttf */; };
+		86EAF27EFB544F9AAF5FC259 /* NeueHaasDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA1FA0C86D004A24A2436284 /* NeueHaasDisplay-Bold.ttf */; };
+		1FE9D4EB565242F3A213316C /* NeueHaasDisplay-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 842BD9CC679A45FD8DF794A2 /* NeueHaasDisplay-BoldItalic.ttf */; };
+		0715001E4EDB444BA9B2CA57 /* NeueHaasDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FE8B09306CB48EDB0986117 /* NeueHaasDisplay-Light.ttf */; };
+		AFF4599401494B109AAC8C87 /* NeueHaasDisplay-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AF0159A667A428CB70234EE /* NeueHaasDisplay-LightItalic.ttf */; };
+		0D9E4A0FB3064D5E9C6A164B /* NeueHaasDisplay-Mediu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A868A1D2551A4EB289381BCA /* NeueHaasDisplay-Mediu.ttf */; };
+		E2B9BF2AA3E24A44A5705C86 /* NeueHaasDisplay-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99C5EDA0B6264163AE1BFABD /* NeueHaasDisplay-MediumItalic.ttf */; };
+		26F0F61788434A23A6DE2962 /* NeueHaasDisplay-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9723C2AF02CF4E7D94D63076 /* NeueHaasDisplay-Roman.ttf */; };
+		492308BEA58E4D7FAA62CD3F /* NeueHaasDisplay-RomanItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CCAC327738D4D588FD92240 /* NeueHaasDisplay-RomanItalic.ttf */; };
+		74BF79B95C0E496A945DC68E /* NeueHaasDisplay-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0D8EBB12F0946CFB5F5FFDD /* NeueHaasDisplay-Thin.ttf */; };
+		E79DFFFCE17F4B1D93CD4CC7 /* NeueHaasDisplay-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 560B2FB8AA3D47699136B884 /* NeueHaasDisplay-ThinItalic.ttf */; };
+		3BC4660A168C4287B693302C /* NeueHaasDisplay-XThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CAA804A79A4ED3B93E6B00 /* NeueHaasDisplay-XThin.ttf */; };
+		0513F3E8AC1A4A7A9F161F95 /* NeueHaasDisplay-XThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26B74B90FEB94F3A9B70C154 /* NeueHaasDisplay-XThinItalic.ttf */; };
+		5DE2E51C81B84387BE5FBBF1 /* NeueHaasDisplay-XXThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 186B17F118354371882E7BB5 /* NeueHaasDisplay-XXThin.ttf */; };
+		8688DE92B10F4921BDD3924A /* NeueHaasDisplay-XXThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EC175BE46204F37B50F8D6C /* NeueHaasDisplay-XXThinItalic.ttf */; };
+		29F36119CB3F4165B3A7EFF4 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = 90437D4D2F2C488CACDCB818 /* demo.html */; };
+		0F959DBBFA194BD187A309AE /* NeueHaasDisplay-Black.eot in Resources */ = {isa = PBXBuildFile; fileRef = FD5394756DDB4095BBBD3827 /* NeueHaasDisplay-Black.eot */; };
+		CEF71AAD31A247ABB7D4E5F1 /* NeueHaasDisplay-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 62153D90D1134DC280B57842 /* NeueHaasDisplay-Black.woff */; };
+		503B4F1FCDBC4476AFE44052 /* NeueHaasDisplay-BlackItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 017E331DA52F4D2AB88CE31C /* NeueHaasDisplay-BlackItalic.eot */; };
+		EB726237BEB642C0A8F8671C /* NeueHaasDisplay-BlackItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 5CB7B76AA4B44C4B9A4BF7E3 /* NeueHaasDisplay-BlackItalic.woff */; };
+		83481C2F641D4EBFB0C6FA95 /* NeueHaasDisplay-Bold.eot in Resources */ = {isa = PBXBuildFile; fileRef = 1B418DD05B9D4F43B9C1B086 /* NeueHaasDisplay-Bold.eot */; };
+		0724DADAB32D4B2994E8E3C2 /* NeueHaasDisplay-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = BCCCBCA3450D469AA840D2A7 /* NeueHaasDisplay-Bold.woff */; };
+		E11A4BEC838E47E3833C6959 /* NeueHaasDisplay-BoldItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 2614E9C0397646A6952D98F0 /* NeueHaasDisplay-BoldItalic.eot */; };
+		F55518A2A2CD43F59D204562 /* NeueHaasDisplay-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = C3F8F8D433B14DE59F10B113 /* NeueHaasDisplay-BoldItalic.woff */; };
+		17F8F6629D6C469690B2617E /* NeueHaasDisplay-Light.eot in Resources */ = {isa = PBXBuildFile; fileRef = 170431D6689646CAA9BB6B41 /* NeueHaasDisplay-Light.eot */; };
+		5DE6194628FC4F8D8BA42CB3 /* NeueHaasDisplay-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = C2FCBD0453C04564874F69C7 /* NeueHaasDisplay-Light.woff */; };
+		1D78B9523A114940B883C74B /* NeueHaasDisplay-LightItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = DD11914DB21B4C69AC0551E7 /* NeueHaasDisplay-LightItalic.eot */; };
+		FA1D9BC988F747A5A011CAF4 /* NeueHaasDisplay-LightItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3206CB01EDC74AEF9C2D84D5 /* NeueHaasDisplay-LightItalic.woff */; };
+		30603B857A3C42C0ADF445AB /* NeueHaasDisplay-Mediu.eot in Resources */ = {isa = PBXBuildFile; fileRef = 828F091E97024E5DA59D2E45 /* NeueHaasDisplay-Mediu.eot */; };
+		4B1D5119AA6040CB87968CC7 /* NeueHaasDisplay-Mediu.woff in Resources */ = {isa = PBXBuildFile; fileRef = 484325CEA5834496889FD957 /* NeueHaasDisplay-Mediu.woff */; };
+		58740E44523B412881E56B02 /* NeueHaasDisplay-MediumItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = F844F761BD924915BCFE8658 /* NeueHaasDisplay-MediumItalic.eot */; };
+		5663DB2E14574566B3CE04CA /* NeueHaasDisplay-MediumItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 9373F9C1A71640B786E12FB0 /* NeueHaasDisplay-MediumItalic.woff */; };
+		4CE31FC9589E473189EF1C97 /* NeueHaasDisplay-Roman.eot in Resources */ = {isa = PBXBuildFile; fileRef = BFCF1E801C414EF3B992624B /* NeueHaasDisplay-Roman.eot */; };
+		C8B479DDA10D486BBA9ACE90 /* NeueHaasDisplay-Roman.woff in Resources */ = {isa = PBXBuildFile; fileRef = D52AD5315CC04F5793278A5C /* NeueHaasDisplay-Roman.woff */; };
+		79D2C7DCA7EF4BB7AE8B125F /* NeueHaasDisplay-RomanItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 6D064C1618BD4FD7A78A59F8 /* NeueHaasDisplay-RomanItalic.eot */; };
+		11961580EB464F8A99C81C37 /* NeueHaasDisplay-RomanItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 0617DFD77376423CAF9A782F /* NeueHaasDisplay-RomanItalic.woff */; };
+		4161ABED16BA48EA9D49B548 /* NeueHaasDisplay-Thin.eot in Resources */ = {isa = PBXBuildFile; fileRef = 8016373DA5BC43B88DA546B5 /* NeueHaasDisplay-Thin.eot */; };
+		7CE14A56281A48C5A78B0134 /* NeueHaasDisplay-Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = DA1A8330AF7C4940AB5428B8 /* NeueHaasDisplay-Thin.woff */; };
+		8142001B8C7C46C484ECBB74 /* NeueHaasDisplay-ThinItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = DCB599E3ACEF4069A2302D9B /* NeueHaasDisplay-ThinItalic.eot */; };
+		044F660C6C944A65B738D53A /* NeueHaasDisplay-ThinItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 86E4176724D84BF387AF3FFC /* NeueHaasDisplay-ThinItalic.woff */; };
+		419FA45D5CF445B0B4ADA920 /* NeueHaasDisplay-XThin.eot in Resources */ = {isa = PBXBuildFile; fileRef = D996C05A0F9B4A1AAE41FE90 /* NeueHaasDisplay-XThin.eot */; };
+		941F8BA2DE324F3CAE297C81 /* NeueHaasDisplay-XThin.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3AEF67352B594E1EAFB90AE5 /* NeueHaasDisplay-XThin.woff */; };
+		4F12653C6D824E6782AEE3AA /* NeueHaasDisplay-XThinItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = D3E4012C90A746339D7B8BC3 /* NeueHaasDisplay-XThinItalic.eot */; };
+		36FC12E8F67D4BC7823D17E6 /* NeueHaasDisplay-XThinItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 2D78EAB077564C91837B1387 /* NeueHaasDisplay-XThinItalic.woff */; };
+		2A67D56E52EF4E698B94B719 /* NeueHaasDisplay-XXThin.eot in Resources */ = {isa = PBXBuildFile; fileRef = 1606AA8FBF694777B9EFA1BB /* NeueHaasDisplay-XXThin.eot */; };
+		80322D09CB95419C93CB1963 /* NeueHaasDisplay-XXThin.woff in Resources */ = {isa = PBXBuildFile; fileRef = DF753FE3F85B474F9455C717 /* NeueHaasDisplay-XXThin.woff */; };
+		C4E018473B914FDE9385FD2F /* NeueHaasDisplay-XXThinItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 53ABFCE115AE4C949EB0B307 /* NeueHaasDisplay-XXThinItalic.eot */; };
+		C62EB251AB9F49518D7EEDB3 /* NeueHaasDisplay-XXThinItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 9A170F81B13A4427B1157A4B /* NeueHaasDisplay-XXThinItalic.woff */; };
+		ADF760C983DD4DEFBD705DDC /* stylesheet.css in Resources */ = {isa = PBXBuildFile; fileRef = 08693FA2D697437DA2359E94 /* stylesheet.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = WorkoutApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* WorkoutAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* WorkoutAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkoutAppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = WorkoutApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = WorkoutApp/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WorkoutApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = WorkoutApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WorkoutApp/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-WorkoutApp-WorkoutAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorkoutApp-WorkoutAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-WorkoutApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutApp.debug.xcconfig"; path = "Target Support Files/Pods-WorkoutApp/Pods-WorkoutApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-WorkoutApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutApp.release.xcconfig"; path = "Target Support Files/Pods-WorkoutApp/Pods-WorkoutApp.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-WorkoutApp-WorkoutAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutApp-WorkoutAppTests.debug.xcconfig"; path = "Target Support Files/Pods-WorkoutApp-WorkoutAppTests/Pods-WorkoutApp-WorkoutAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-WorkoutApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorkoutApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WorkoutApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-WorkoutApp-WorkoutAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkoutApp-WorkoutAppTests.release.xcconfig"; path = "Target Support Files/Pods-WorkoutApp-WorkoutAppTests/Pods-WorkoutApp-WorkoutAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		E9139B3C2B024D02AEDFCE54 /* NeueHaasDisplay-Black.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Black.ttf"; path = "../assets/fonts/NeueHaasDisplay-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CE95622E3F674CA19694FF0C /* NeueHaasDisplay-BlackItalic.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-BlackItalic.ttf"; path = "../assets/fonts/NeueHaasDisplay-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FA1FA0C86D004A24A2436284 /* NeueHaasDisplay-Bold.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Bold.ttf"; path = "../assets/fonts/NeueHaasDisplay-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		842BD9CC679A45FD8DF794A2 /* NeueHaasDisplay-BoldItalic.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-BoldItalic.ttf"; path = "../assets/fonts/NeueHaasDisplay-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5FE8B09306CB48EDB0986117 /* NeueHaasDisplay-Light.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Light.ttf"; path = "../assets/fonts/NeueHaasDisplay-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3AF0159A667A428CB70234EE /* NeueHaasDisplay-LightItalic.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-LightItalic.ttf"; path = "../assets/fonts/NeueHaasDisplay-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A868A1D2551A4EB289381BCA /* NeueHaasDisplay-Mediu.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Mediu.ttf"; path = "../assets/fonts/NeueHaasDisplay-Mediu.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		99C5EDA0B6264163AE1BFABD /* NeueHaasDisplay-MediumItalic.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-MediumItalic.ttf"; path = "../assets/fonts/NeueHaasDisplay-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9723C2AF02CF4E7D94D63076 /* NeueHaasDisplay-Roman.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Roman.ttf"; path = "../assets/fonts/NeueHaasDisplay-Roman.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7CCAC327738D4D588FD92240 /* NeueHaasDisplay-RomanItalic.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-RomanItalic.ttf"; path = "../assets/fonts/NeueHaasDisplay-RomanItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D0D8EBB12F0946CFB5F5FFDD /* NeueHaasDisplay-Thin.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Thin.ttf"; path = "../assets/fonts/NeueHaasDisplay-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		560B2FB8AA3D47699136B884 /* NeueHaasDisplay-ThinItalic.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-ThinItalic.ttf"; path = "../assets/fonts/NeueHaasDisplay-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		38CAA804A79A4ED3B93E6B00 /* NeueHaasDisplay-XThin.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-XThin.ttf"; path = "../assets/fonts/NeueHaasDisplay-XThin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		26B74B90FEB94F3A9B70C154 /* NeueHaasDisplay-XThinItalic.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-XThinItalic.ttf"; path = "../assets/fonts/NeueHaasDisplay-XThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		186B17F118354371882E7BB5 /* NeueHaasDisplay-XXThin.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-XXThin.ttf"; path = "../assets/fonts/NeueHaasDisplay-XXThin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0EC175BE46204F37B50F8D6C /* NeueHaasDisplay-XXThinItalic.ttf */ = {isa = PBXFileReference; name = "NeueHaasDisplay-XXThinItalic.ttf"; path = "../assets/fonts/NeueHaasDisplay-XXThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		90437D4D2F2C488CACDCB818 /* demo.html */ = {isa = PBXFileReference; name = "demo.html"; path = "../assets/fonts/demo.html"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FD5394756DDB4095BBBD3827 /* NeueHaasDisplay-Black.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Black.eot"; path = "../assets/fonts/NeueHaasDisplay-Black.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		62153D90D1134DC280B57842 /* NeueHaasDisplay-Black.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Black.woff"; path = "../assets/fonts/NeueHaasDisplay-Black.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		017E331DA52F4D2AB88CE31C /* NeueHaasDisplay-BlackItalic.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-BlackItalic.eot"; path = "../assets/fonts/NeueHaasDisplay-BlackItalic.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5CB7B76AA4B44C4B9A4BF7E3 /* NeueHaasDisplay-BlackItalic.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-BlackItalic.woff"; path = "../assets/fonts/NeueHaasDisplay-BlackItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1B418DD05B9D4F43B9C1B086 /* NeueHaasDisplay-Bold.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Bold.eot"; path = "../assets/fonts/NeueHaasDisplay-Bold.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BCCCBCA3450D469AA840D2A7 /* NeueHaasDisplay-Bold.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Bold.woff"; path = "../assets/fonts/NeueHaasDisplay-Bold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2614E9C0397646A6952D98F0 /* NeueHaasDisplay-BoldItalic.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-BoldItalic.eot"; path = "../assets/fonts/NeueHaasDisplay-BoldItalic.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C3F8F8D433B14DE59F10B113 /* NeueHaasDisplay-BoldItalic.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-BoldItalic.woff"; path = "../assets/fonts/NeueHaasDisplay-BoldItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		170431D6689646CAA9BB6B41 /* NeueHaasDisplay-Light.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Light.eot"; path = "../assets/fonts/NeueHaasDisplay-Light.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C2FCBD0453C04564874F69C7 /* NeueHaasDisplay-Light.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Light.woff"; path = "../assets/fonts/NeueHaasDisplay-Light.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DD11914DB21B4C69AC0551E7 /* NeueHaasDisplay-LightItalic.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-LightItalic.eot"; path = "../assets/fonts/NeueHaasDisplay-LightItalic.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3206CB01EDC74AEF9C2D84D5 /* NeueHaasDisplay-LightItalic.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-LightItalic.woff"; path = "../assets/fonts/NeueHaasDisplay-LightItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		828F091E97024E5DA59D2E45 /* NeueHaasDisplay-Mediu.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Mediu.eot"; path = "../assets/fonts/NeueHaasDisplay-Mediu.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		484325CEA5834496889FD957 /* NeueHaasDisplay-Mediu.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Mediu.woff"; path = "../assets/fonts/NeueHaasDisplay-Mediu.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F844F761BD924915BCFE8658 /* NeueHaasDisplay-MediumItalic.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-MediumItalic.eot"; path = "../assets/fonts/NeueHaasDisplay-MediumItalic.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9373F9C1A71640B786E12FB0 /* NeueHaasDisplay-MediumItalic.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-MediumItalic.woff"; path = "../assets/fonts/NeueHaasDisplay-MediumItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BFCF1E801C414EF3B992624B /* NeueHaasDisplay-Roman.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Roman.eot"; path = "../assets/fonts/NeueHaasDisplay-Roman.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D52AD5315CC04F5793278A5C /* NeueHaasDisplay-Roman.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Roman.woff"; path = "../assets/fonts/NeueHaasDisplay-Roman.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6D064C1618BD4FD7A78A59F8 /* NeueHaasDisplay-RomanItalic.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-RomanItalic.eot"; path = "../assets/fonts/NeueHaasDisplay-RomanItalic.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0617DFD77376423CAF9A782F /* NeueHaasDisplay-RomanItalic.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-RomanItalic.woff"; path = "../assets/fonts/NeueHaasDisplay-RomanItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8016373DA5BC43B88DA546B5 /* NeueHaasDisplay-Thin.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Thin.eot"; path = "../assets/fonts/NeueHaasDisplay-Thin.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DA1A8330AF7C4940AB5428B8 /* NeueHaasDisplay-Thin.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-Thin.woff"; path = "../assets/fonts/NeueHaasDisplay-Thin.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DCB599E3ACEF4069A2302D9B /* NeueHaasDisplay-ThinItalic.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-ThinItalic.eot"; path = "../assets/fonts/NeueHaasDisplay-ThinItalic.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		86E4176724D84BF387AF3FFC /* NeueHaasDisplay-ThinItalic.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-ThinItalic.woff"; path = "../assets/fonts/NeueHaasDisplay-ThinItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D996C05A0F9B4A1AAE41FE90 /* NeueHaasDisplay-XThin.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-XThin.eot"; path = "../assets/fonts/NeueHaasDisplay-XThin.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3AEF67352B594E1EAFB90AE5 /* NeueHaasDisplay-XThin.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-XThin.woff"; path = "../assets/fonts/NeueHaasDisplay-XThin.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3E4012C90A746339D7B8BC3 /* NeueHaasDisplay-XThinItalic.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-XThinItalic.eot"; path = "../assets/fonts/NeueHaasDisplay-XThinItalic.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2D78EAB077564C91837B1387 /* NeueHaasDisplay-XThinItalic.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-XThinItalic.woff"; path = "../assets/fonts/NeueHaasDisplay-XThinItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1606AA8FBF694777B9EFA1BB /* NeueHaasDisplay-XXThin.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-XXThin.eot"; path = "../assets/fonts/NeueHaasDisplay-XXThin.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DF753FE3F85B474F9455C717 /* NeueHaasDisplay-XXThin.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-XXThin.woff"; path = "../assets/fonts/NeueHaasDisplay-XXThin.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		53ABFCE115AE4C949EB0B307 /* NeueHaasDisplay-XXThinItalic.eot */ = {isa = PBXFileReference; name = "NeueHaasDisplay-XXThinItalic.eot"; path = "../assets/fonts/NeueHaasDisplay-XXThinItalic.eot"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9A170F81B13A4427B1157A4B /* NeueHaasDisplay-XXThinItalic.woff */ = {isa = PBXFileReference; name = "NeueHaasDisplay-XXThinItalic.woff"; path = "../assets/fonts/NeueHaasDisplay-XXThinItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		08693FA2D697437DA2359E94 /* stylesheet.css */ = {isa = PBXFileReference; name = "stylesheet.css"; path = "../assets/fonts/stylesheet.css"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-WorkoutApp-WorkoutAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-WorkoutApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* WorkoutAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* WorkoutAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = WorkoutAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* WorkoutApp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = WorkoutApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-WorkoutApp.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-WorkoutApp-WorkoutAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* WorkoutApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* WorkoutAppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				F64FBBFEDF764C3BB888A575 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* WorkoutApp.app */,
+				00E356EE1AD99517003FC87E /* WorkoutAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-WorkoutApp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-WorkoutApp.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-WorkoutApp-WorkoutAppTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-WorkoutApp-WorkoutAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F64FBBFEDF764C3BB888A575 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				E9139B3C2B024D02AEDFCE54 /* NeueHaasDisplay-Black.ttf */,
+				CE95622E3F674CA19694FF0C /* NeueHaasDisplay-BlackItalic.ttf */,
+				FA1FA0C86D004A24A2436284 /* NeueHaasDisplay-Bold.ttf */,
+				842BD9CC679A45FD8DF794A2 /* NeueHaasDisplay-BoldItalic.ttf */,
+				5FE8B09306CB48EDB0986117 /* NeueHaasDisplay-Light.ttf */,
+				3AF0159A667A428CB70234EE /* NeueHaasDisplay-LightItalic.ttf */,
+				A868A1D2551A4EB289381BCA /* NeueHaasDisplay-Mediu.ttf */,
+				99C5EDA0B6264163AE1BFABD /* NeueHaasDisplay-MediumItalic.ttf */,
+				9723C2AF02CF4E7D94D63076 /* NeueHaasDisplay-Roman.ttf */,
+				7CCAC327738D4D588FD92240 /* NeueHaasDisplay-RomanItalic.ttf */,
+				D0D8EBB12F0946CFB5F5FFDD /* NeueHaasDisplay-Thin.ttf */,
+				560B2FB8AA3D47699136B884 /* NeueHaasDisplay-ThinItalic.ttf */,
+				38CAA804A79A4ED3B93E6B00 /* NeueHaasDisplay-XThin.ttf */,
+				26B74B90FEB94F3A9B70C154 /* NeueHaasDisplay-XThinItalic.ttf */,
+				186B17F118354371882E7BB5 /* NeueHaasDisplay-XXThin.ttf */,
+				0EC175BE46204F37B50F8D6C /* NeueHaasDisplay-XXThinItalic.ttf */,
+				90437D4D2F2C488CACDCB818 /* demo.html */,
+				FD5394756DDB4095BBBD3827 /* NeueHaasDisplay-Black.eot */,
+				62153D90D1134DC280B57842 /* NeueHaasDisplay-Black.woff */,
+				017E331DA52F4D2AB88CE31C /* NeueHaasDisplay-BlackItalic.eot */,
+				5CB7B76AA4B44C4B9A4BF7E3 /* NeueHaasDisplay-BlackItalic.woff */,
+				1B418DD05B9D4F43B9C1B086 /* NeueHaasDisplay-Bold.eot */,
+				BCCCBCA3450D469AA840D2A7 /* NeueHaasDisplay-Bold.woff */,
+				2614E9C0397646A6952D98F0 /* NeueHaasDisplay-BoldItalic.eot */,
+				C3F8F8D433B14DE59F10B113 /* NeueHaasDisplay-BoldItalic.woff */,
+				170431D6689646CAA9BB6B41 /* NeueHaasDisplay-Light.eot */,
+				C2FCBD0453C04564874F69C7 /* NeueHaasDisplay-Light.woff */,
+				DD11914DB21B4C69AC0551E7 /* NeueHaasDisplay-LightItalic.eot */,
+				3206CB01EDC74AEF9C2D84D5 /* NeueHaasDisplay-LightItalic.woff */,
+				828F091E97024E5DA59D2E45 /* NeueHaasDisplay-Mediu.eot */,
+				484325CEA5834496889FD957 /* NeueHaasDisplay-Mediu.woff */,
+				F844F761BD924915BCFE8658 /* NeueHaasDisplay-MediumItalic.eot */,
+				9373F9C1A71640B786E12FB0 /* NeueHaasDisplay-MediumItalic.woff */,
+				BFCF1E801C414EF3B992624B /* NeueHaasDisplay-Roman.eot */,
+				D52AD5315CC04F5793278A5C /* NeueHaasDisplay-Roman.woff */,
+				6D064C1618BD4FD7A78A59F8 /* NeueHaasDisplay-RomanItalic.eot */,
+				0617DFD77376423CAF9A782F /* NeueHaasDisplay-RomanItalic.woff */,
+				8016373DA5BC43B88DA546B5 /* NeueHaasDisplay-Thin.eot */,
+				DA1A8330AF7C4940AB5428B8 /* NeueHaasDisplay-Thin.woff */,
+				DCB599E3ACEF4069A2302D9B /* NeueHaasDisplay-ThinItalic.eot */,
+				86E4176724D84BF387AF3FFC /* NeueHaasDisplay-ThinItalic.woff */,
+				D996C05A0F9B4A1AAE41FE90 /* NeueHaasDisplay-XThin.eot */,
+				3AEF67352B594E1EAFB90AE5 /* NeueHaasDisplay-XThin.woff */,
+				D3E4012C90A746339D7B8BC3 /* NeueHaasDisplay-XThinItalic.eot */,
+				2D78EAB077564C91837B1387 /* NeueHaasDisplay-XThinItalic.woff */,
+				1606AA8FBF694777B9EFA1BB /* NeueHaasDisplay-XXThin.eot */,
+				DF753FE3F85B474F9455C717 /* NeueHaasDisplay-XXThin.woff */,
+				53ABFCE115AE4C949EB0B307 /* NeueHaasDisplay-XXThinItalic.eot */,
+				9A170F81B13A4427B1157A4B /* NeueHaasDisplay-XXThinItalic.woff */,
+				08693FA2D697437DA2359E94 /* stylesheet.css */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* WorkoutAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WorkoutAppTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = WorkoutAppTests;
+			productName = WorkoutAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* WorkoutAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* WorkoutApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WorkoutApp" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkoutApp;
+			productName = WorkoutApp;
+			productReference = 13B07F961A680F5B00A75B9A /* WorkoutApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "WorkoutApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* WorkoutApp */,
+				00E356ED1AD99517003FC87E /* WorkoutAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1BE37E1448A043229526852A /* NeueHaasDisplay-Black.ttf in Resources */,
+				EA1DD41D991E40E28C2256DA /* NeueHaasDisplay-BlackItalic.ttf in Resources */,
+				86EAF27EFB544F9AAF5FC259 /* NeueHaasDisplay-Bold.ttf in Resources */,
+				1FE9D4EB565242F3A213316C /* NeueHaasDisplay-BoldItalic.ttf in Resources */,
+				0715001E4EDB444BA9B2CA57 /* NeueHaasDisplay-Light.ttf in Resources */,
+				AFF4599401494B109AAC8C87 /* NeueHaasDisplay-LightItalic.ttf in Resources */,
+				0D9E4A0FB3064D5E9C6A164B /* NeueHaasDisplay-Mediu.ttf in Resources */,
+				E2B9BF2AA3E24A44A5705C86 /* NeueHaasDisplay-MediumItalic.ttf in Resources */,
+				26F0F61788434A23A6DE2962 /* NeueHaasDisplay-Roman.ttf in Resources */,
+				492308BEA58E4D7FAA62CD3F /* NeueHaasDisplay-RomanItalic.ttf in Resources */,
+				74BF79B95C0E496A945DC68E /* NeueHaasDisplay-Thin.ttf in Resources */,
+				E79DFFFCE17F4B1D93CD4CC7 /* NeueHaasDisplay-ThinItalic.ttf in Resources */,
+				3BC4660A168C4287B693302C /* NeueHaasDisplay-XThin.ttf in Resources */,
+				0513F3E8AC1A4A7A9F161F95 /* NeueHaasDisplay-XThinItalic.ttf in Resources */,
+				5DE2E51C81B84387BE5FBBF1 /* NeueHaasDisplay-XXThin.ttf in Resources */,
+				8688DE92B10F4921BDD3924A /* NeueHaasDisplay-XXThinItalic.ttf in Resources */,
+				29F36119CB3F4165B3A7EFF4 /* demo.html in Resources */,
+				0F959DBBFA194BD187A309AE /* NeueHaasDisplay-Black.eot in Resources */,
+				CEF71AAD31A247ABB7D4E5F1 /* NeueHaasDisplay-Black.woff in Resources */,
+				503B4F1FCDBC4476AFE44052 /* NeueHaasDisplay-BlackItalic.eot in Resources */,
+				EB726237BEB642C0A8F8671C /* NeueHaasDisplay-BlackItalic.woff in Resources */,
+				83481C2F641D4EBFB0C6FA95 /* NeueHaasDisplay-Bold.eot in Resources */,
+				0724DADAB32D4B2994E8E3C2 /* NeueHaasDisplay-Bold.woff in Resources */,
+				E11A4BEC838E47E3833C6959 /* NeueHaasDisplay-BoldItalic.eot in Resources */,
+				F55518A2A2CD43F59D204562 /* NeueHaasDisplay-BoldItalic.woff in Resources */,
+				17F8F6629D6C469690B2617E /* NeueHaasDisplay-Light.eot in Resources */,
+				5DE6194628FC4F8D8BA42CB3 /* NeueHaasDisplay-Light.woff in Resources */,
+				1D78B9523A114940B883C74B /* NeueHaasDisplay-LightItalic.eot in Resources */,
+				FA1D9BC988F747A5A011CAF4 /* NeueHaasDisplay-LightItalic.woff in Resources */,
+				30603B857A3C42C0ADF445AB /* NeueHaasDisplay-Mediu.eot in Resources */,
+				4B1D5119AA6040CB87968CC7 /* NeueHaasDisplay-Mediu.woff in Resources */,
+				58740E44523B412881E56B02 /* NeueHaasDisplay-MediumItalic.eot in Resources */,
+				5663DB2E14574566B3CE04CA /* NeueHaasDisplay-MediumItalic.woff in Resources */,
+				4CE31FC9589E473189EF1C97 /* NeueHaasDisplay-Roman.eot in Resources */,
+				C8B479DDA10D486BBA9ACE90 /* NeueHaasDisplay-Roman.woff in Resources */,
+				79D2C7DCA7EF4BB7AE8B125F /* NeueHaasDisplay-RomanItalic.eot in Resources */,
+				11961580EB464F8A99C81C37 /* NeueHaasDisplay-RomanItalic.woff in Resources */,
+				4161ABED16BA48EA9D49B548 /* NeueHaasDisplay-Thin.eot in Resources */,
+				7CE14A56281A48C5A78B0134 /* NeueHaasDisplay-Thin.woff in Resources */,
+				8142001B8C7C46C484ECBB74 /* NeueHaasDisplay-ThinItalic.eot in Resources */,
+				044F660C6C944A65B738D53A /* NeueHaasDisplay-ThinItalic.woff in Resources */,
+				419FA45D5CF445B0B4ADA920 /* NeueHaasDisplay-XThin.eot in Resources */,
+				941F8BA2DE324F3CAE297C81 /* NeueHaasDisplay-XThin.woff in Resources */,
+				4F12653C6D824E6782AEE3AA /* NeueHaasDisplay-XThinItalic.eot in Resources */,
+				36FC12E8F67D4BC7823D17E6 /* NeueHaasDisplay-XThinItalic.woff in Resources */,
+				2A67D56E52EF4E698B94B719 /* NeueHaasDisplay-XXThin.eot in Resources */,
+				80322D09CB95419C93CB1963 /* NeueHaasDisplay-XXThin.woff in Resources */,
+				C4E018473B914FDE9385FD2F /* NeueHaasDisplay-XXThinItalic.eot in Resources */,
+				C62EB251AB9F49518D7EEDB3 /* NeueHaasDisplay-XXThinItalic.woff in Resources */,
+				ADF760C983DD4DEFBD705DDC /* stylesheet.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkoutApp/Pods-WorkoutApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkoutApp/Pods-WorkoutApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorkoutApp/Pods-WorkoutApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkoutApp-WorkoutAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkoutApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkoutApp-WorkoutAppTests/Pods-WorkoutApp-WorkoutAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkoutApp-WorkoutAppTests/Pods-WorkoutApp-WorkoutAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorkoutApp-WorkoutAppTests/Pods-WorkoutApp-WorkoutAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkoutApp/Pods-WorkoutApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkoutApp/Pods-WorkoutApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorkoutApp/Pods-WorkoutApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkoutApp-WorkoutAppTests/Pods-WorkoutApp-WorkoutAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkoutApp-WorkoutAppTests/Pods-WorkoutApp-WorkoutAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorkoutApp-WorkoutAppTests/Pods-WorkoutApp-WorkoutAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* WorkoutAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* WorkoutApp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-WorkoutApp-WorkoutAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorkoutAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkoutApp.app/WorkoutApp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-WorkoutApp-WorkoutAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = WorkoutAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkoutApp.app/WorkoutApp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-WorkoutApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = WorkoutApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WorkoutApp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-WorkoutApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = WorkoutApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WorkoutApp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WorkoutAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WorkoutApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "WorkoutApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
